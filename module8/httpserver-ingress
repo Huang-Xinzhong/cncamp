@@ -1,0 +1,20 @@
+apiVersior: networking.k8s.io/v1
+kind: Ingress
+metdata:
+  name: httpserver-ingress
+  annotations:
+    kubernetes.io/ingress.class: "httpserver"
+spec:
+  tls:
+    - hosts:
+        - huangxinzhong.com
+      secretName: huangxinzhong.tls
+  rules:
+    - host: huangxinzhong.com
+      http:
+        pathType: Prefix
+        backend:
+          service:
+            name: httpserver
+            port:
+              number: 8080
