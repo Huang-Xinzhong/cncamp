@@ -30,11 +30,11 @@
 
 prometheus查看延迟指标
 
-![prometheus](C:\Users\lenovo\Desktop\prometheus.png)
+https://github.com/Huang-Xinzhong/cncamp/blob/main/module10/prometheus.png
 
 
 
 grafana dashboard 效果
 
-![grafana](C:\Users\lenovo\Desktop\grafana.png)
+https://github.com/Huang-Xinzhong/cncamp/blob/main/module10/grafana.png
 
