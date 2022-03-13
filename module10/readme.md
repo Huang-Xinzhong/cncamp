@@ -18,11 +18,11 @@
 
 ```yaml
 #添加Prometheus自动发现
-	  annotations:
+      annotations:
         prometheus.io/scrape: "true"
         prometheus.io/port: "8080"
 #声明容器端口
-	  ports:
+      ports:
         - containerPort: 8080
 ```
 
@@ -37,4 +37,4 @@ https://github.com/Huang-Xinzhong/cncamp/blob/main/module10/prometheus.png
 grafana dashboard 效果
 
 https://github.com/Huang-Xinzhong/cncamp/blob/main/module10/grafana.png
-
+![grafana](https://github.com/Huang-Xinzhong/cncamp/blob/main/module10/grafana.png)
