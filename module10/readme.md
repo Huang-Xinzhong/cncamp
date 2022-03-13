@@ -30,11 +30,9 @@
 
 prometheus查看延迟指标
 
-https://github.com/Huang-Xinzhong/cncamp/blob/main/module10/prometheus.png
-
+![prometheus](https://github.com/Huang-Xinzhong/cncamp/blob/main/module10/prometheus.png)
 
 
 grafana dashboard 效果
 
-https://github.com/Huang-Xinzhong/cncamp/blob/main/module10/grafana.png
 ![grafana](https://github.com/Huang-Xinzhong/cncamp/blob/main/module10/grafana.png)
